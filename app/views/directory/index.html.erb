@@ -1,0 +1,17 @@
+<h1>Directory</h1>
+
+<div class="row">
+
+	<% @team_members.each do |team_member| %>
+		
+		<div class="col-12">
+
+			<h2><%= team_member.first_name %> <%= team_member.last_name %></h2>
+
+			<h3><%= team_member.title %></h3>
+
+		</div>
+
+	<% end %>
+
+</div>
