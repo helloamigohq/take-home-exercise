@@ -8,6 +8,8 @@ This website is using a slightly older version of Ruby (2.7.1) and Rails (6.0.3.
 
 ## Getting Started
 
+You can clone this repo to your development machine.
+
 You may need to install Ruby 2.7.1 using rbenv (https://github.com/rbenv/rbenv).
 
 Once that version Ruby is installed, running `bundle install` should install the appropriate gems for this website.
