@@ -14,7 +14,7 @@ Once that version Ruby is installed, running `bundle install` should install the
 
 You can then run `rake db:migrate` to run the database migrations.
 
-Running `rails s` should start the server, and you should see the home page of the website, which references the directory controller and index view.
+Running `rails s` should start the server, and you should see the home page of the website, which is routed to the 'directory' controller and 'index' view.
 
 ## Managing Team Members
 
@@ -24,11 +24,11 @@ There is an admin interface for managing team members available at the /team_mem
 
 Our contact at GiveRuby Inc. has requested the following changes to the website:
 
-1. When adding or editing a team member, they need to be able to type in the e-mail address and phone number of the team member. Those fields do not exist yet, so you'll need to create a migration to update the existing team_members table to add those fields.
+1. When adding or editing a team member, they need to be able to type in the e-mail address and phone number of the team member. Those fields do not exist in the database yet.
 
 1. When adding or editing a team member, the e-mail address and phone number should be required.
 
-1. On the website homepage, only the team member name and title is displaying right now. They want the e-mail address and phone number to display too.
+1. On the website homepage, only the team member name and title is displaying right now. They want the e-mail address and phone number to display as well.
 
 1. On the website homepage, the team members should be ordered by last name, and then by first name.
 
@@ -36,4 +36,8 @@ Our contact at GiveRuby Inc. has requested the following changes to the website:
 
 1. On the website homepage, the client would like the team member name linked to a new view that shows that specific team member's information, including first name, title, e-mail address, phone number, and biography. You'll need to create a new action in the directory controller and update the routes.rb file to implement the new view.
 
-1. On the new view, the team member's name should be set to green by using Bootstrap's color utilities (https://getbootstrap.com/docs/5.0/utilities/colors/).
+1. On the new view, the team member's name should be set to green using Bootstrap's color utilities (https://getbootstrap.com/docs/5.0/utilities/colors/).
+
+## Questions
+
+Please don't hesitate to ask me any questions!
